@@ -965,13 +965,7 @@ function Footer() {
             animate={inView ? { y: 0, opacity: 1 } : {}}
             transition={{ duration: 1 }}
           >
-            <motion.div 
-              className="text-4xl mb-4"
-              animate={{ rotate: [0, 360] }}
-              transition={{ duration: 2, repeat: Infinity, ease: 'linear' }}
-            >
-              💪
-            </motion.div>
+       
             <h3 className="text-xl font-bold mb-4">FitZone Elite</h3>
             <p className="text-muted-foreground">
               Transform your body, elevate your mind. Experience the pinnacle of fitness innovation.
